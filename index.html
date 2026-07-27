@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Yu Health Dashboard</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Apple Health Export</p>
+          <h1>Yu Health Dashboard</h1>
+          <p id="rangeCopy" class="muted"></p>
+        </div>
+        <div class="toolbar" aria-label="Year view">
+          <button class="seg" data-view="2025" type="button">2025</button>
+          <button class="seg active" data-view="2026" type="button">2026</button>
+        </div>
+      </header>
+
+      <section id="summaryCards" class="summary-grid" aria-label="Health summary"></section>
+
+      <section class="content-grid">
+        <article class="panel wide">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Activity</p>
+              <h2>活动量趋势</h2>
+            </div>
+            <span class="pill">每日</span>
+          </div>
+          <div id="activityCharts" class="chart-grid"></div>
+        </article>
+
+        <article class="panel wide">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Sleep</p>
+              <h2>睡眠结构</h2>
+            </div>
+          </div>
+          <div id="sleepPanel"></div>
+        </article>
+
+        <article class="panel wide">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Recovery</p>
+              <h2>心率与恢复</h2>
+            </div>
+          </div>
+          <div id="heartPanel" class="metric-list"></div>
+        </article>
+
+        <article class="panel wide">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Mobility</p>
+              <h2>步态与体态相关数据</h2>
+            </div>
+          </div>
+          <div id="mobilityCharts" class="chart-grid"></div>
+        </article>
+
+        <article class="panel wide">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Workouts</p>
+              <h2>运动类型</h2>
+            </div>
+          </div>
+          <div id="workoutPanel"></div>
+        </article>
+
+        <article class="panel wide">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Swimming</p>
+              <h2>游泳专项分析</h2>
+            </div>
+          </div>
+          <div id="swimPanel"></div>
+        </article>
+
+        <article class="panel wide">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Body</p>
+              <h2>身体组成</h2>
+            </div>
+          </div>
+          <div id="bodyPanel" class="metric-list"></div>
+        </article>
+      </section>
+
+      <section class="panel notes">
+        <div>
+          <p class="eyebrow">Analysis</p>
+          <h2>数据解读</h2>
+        </div>
+        <div id="insights" class="insight-grid"></div>
+        <p class="disclaimer">
+          本页根据本机 Apple Health 导出文件生成，只展示聚合趋势，不构成诊断或治疗建议。若出现症状或关键指标持续异常，应咨询医生。
+        </p>
+      </section>
+    </main>
+
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

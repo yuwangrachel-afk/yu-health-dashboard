@@ -1,0 +1,723 @@
+{
+  "2025": {
+    "range": {
+      "first": "2025-01-01",
+      "last": "2025-12-31",
+      "days": 365
+    },
+    "metrics": {
+      "bmi": {
+        "label": "BMI",
+        "unit": "",
+        "kind": "avg",
+        "avg": 19.386,
+        "latest": 19.9,
+        "latestDate": "2025-05-17",
+        "count": 7
+      },
+      "bodyMass": {
+        "label": "Body mass",
+        "unit": "kg",
+        "kind": "avg",
+        "avg": 53.723,
+        "latest": 55.5,
+        "latestDate": "2025-10-25",
+        "count": 11
+      },
+      "heartRate": {
+        "label": "Heart rate",
+        "unit": "bpm",
+        "kind": "avg",
+        "avg": 84.652,
+        "latest": 82.0,
+        "latestDate": "2025-12-31",
+        "count": 179139
+      },
+      "oxygenSaturation": {
+        "label": "Oxygen saturation",
+        "unit": "%",
+        "kind": "avg",
+        "avg": 94.57,
+        "latest": 91.0,
+        "latestDate": "2025-12-31",
+        "count": 2997
+      },
+      "respiratoryRate": {
+        "label": "Respiratory rate",
+        "unit": "breaths/min",
+        "kind": "avg",
+        "avg": 17.744,
+        "latest": 17.0,
+        "latestDate": "2025-12-31",
+        "count": 9661
+      },
+      "bodyFat": {
+        "label": "Body fat",
+        "unit": "%",
+        "kind": "avg",
+        "avg": 16.3,
+        "latest": 16.5,
+        "latestDate": "2025-05-17",
+        "count": 4
+      },
+      "leanBodyMass": {
+        "label": "Lean body mass",
+        "unit": "kg",
+        "kind": "avg",
+        "avg": 44.75,
+        "latest": 45.2,
+        "latestDate": "2025-05-17",
+        "count": 4
+      },
+      "steps": {
+        "label": "Steps",
+        "unit": "steps",
+        "kind": "sum",
+        "total": 5858768.0,
+        "dailyAvg": 16051.419,
+        "latest": 47.0,
+        "latestDate": "2025-12-31",
+        "activeDays": 365,
+        "count": 28459
+      },
+      "walkingRunningDistance": {
+        "label": "Walking + running distance",
+        "unit": "km",
+        "kind": "sum",
+        "total": 4563.544,
+        "dailyAvg": 12.503,
+        "latest": 0.035,
+        "latestDate": "2025-12-31",
+        "activeDays": 365,
+        "count": 39048
+      },
+      "basalEnergy": {
+        "label": "Basal energy",
+        "unit": "Cal",
+        "kind": "sum",
+        "total": 517219.635,
+        "dailyAvg": 1440.723,
+        "latest": 15.359,
+        "latestDate": "2025-12-31",
+        "activeDays": 359,
+        "count": 59563
+      },
+      "activeEnergy": {
+        "label": "Active energy",
+        "unit": "Cal",
+        "kind": "sum",
+        "total": 166802.958,
+        "dailyAvg": 475.222,
+        "latest": 0.076,
+        "latestDate": "2025-12-31",
+        "activeDays": 351,
+        "count": 64108
+      },
+      "flightsClimbed": {
+        "label": "Flights climbed",
+        "unit": "flights",
+        "kind": "sum",
+        "total": 6193.916,
+        "dailyAvg": 18.826,
+        "latest": 3.0,
+        "latestDate": "2025-12-31",
+        "activeDays": 329,
+        "count": 1744
+      },
+      "exerciseMinutes": {
+        "label": "Exercise minutes",
+        "unit": "min",
+        "kind": "sum",
+        "total": 14384.0,
+        "dailyAvg": 53.873,
+        "latest": 1.0,
+        "latestDate": "2025-12-31",
+        "activeDays": 267,
+        "count": 14384
+      },
+      "cyclingDistance": {
+        "label": "Cycling distance",
+        "unit": "km",
+        "kind": "sum",
+        "total": 98.635,
+        "dailyAvg": 5.802,
+        "latest": 0.007,
+        "latestDate": "2025-12-02",
+        "activeDays": 17,
+        "count": 663
+      },
+      "swimmingDistance": {
+        "label": "Swimming distance",
+        "unit": "km",
+        "kind": "sum",
+        "total": 75.764,
+        "dailyAvg": 1.222,
+        "latest": 0.025,
+        "latestDate": "2025-12-18",
+        "activeDays": 62,
+        "count": 2751
+      },
+      "swimmingStrokes": {
+        "label": "Swimming strokes",
+        "unit": "strokes",
+        "kind": "sum",
+        "total": 38329.0,
+        "dailyAvg": 709.796,
+        "latest": 16.0,
+        "latestDate": "2025-12-18",
+        "activeDays": 54,
+        "count": 2740
+      },
+      "restingHeartRate": {
+        "label": "Resting heart rate",
+        "unit": "bpm",
+        "kind": "avg",
+        "avg": 61.177,
+        "latest": 63.0,
+        "latestDate": "2025-12-31",
+        "count": 356
+      },
+      "vo2Max": {
+        "label": "VO2 max",
+        "unit": "mL/kg/min",
+        "kind": "avg",
+        "avg": 31.739,
+        "latest": 31.53,
+        "latestDate": "2025-12-28",
+        "count": 84
+      },
+      "walkingHeartRate": {
+        "label": "Walking heart rate",
+        "unit": "bpm",
+        "kind": "avg",
+        "avg": 101.291,
+        "latest": 92.0,
+        "latestDate": "2025-12-31",
+        "count": 227
+      },
+      "doubleSupport": {
+        "label": "Double support",
+        "unit": "%",
+        "kind": "avg",
+        "avg": 27.045,
+        "latest": 25.3,
+        "latestDate": "2025-12-31",
+        "count": 10017
+      },
+      "sixMinuteWalkDistance": {
+        "label": "6-minute walk distance",
+        "unit": "m",
+        "kind": "avg",
+        "avg": 500.0,
+        "latest": 500.0,
+        "latestDate": "2025-12-31",
+        "count": 27
+      },
+      "standMinutes": {
+        "label": "Stand minutes",
+        "unit": "min",
+        "kind": "sum",
+        "total": 25033.0,
+        "dailyAvg": 90.699,
+        "latest": 3.0,
+        "latestDate": "2025-12-31",
+        "activeDays": 276,
+        "count": 10533
+      },
+      "walkingSpeed": {
+        "label": "Walking speed",
+        "unit": "km/hr",
+        "kind": "avg",
+        "avg": 4.164,
+        "latest": 4.86,
+        "latestDate": "2025-12-31",
+        "count": 11771
+      },
+      "stepLength": {
+        "label": "Step length",
+        "unit": "cm",
+        "kind": "avg",
+        "avg": 65.134,
+        "latest": 70.0,
+        "latestDate": "2025-12-31",
+        "count": 11771
+      },
+      "walkingAsymmetry": {
+        "label": "Walking asymmetry",
+        "unit": "%",
+        "kind": "avg",
+        "avg": 6.357,
+        "latest": 0.0,
+        "latestDate": "2025-12-31",
+        "count": 5344
+      },
+      "walkingSteadiness": {
+        "label": "Walking steadiness",
+        "unit": "%",
+        "kind": "avg",
+        "avg": 97.28,
+        "latest": 95.428,
+        "latestDate": "2025-12-31",
+        "count": 55
+      },
+      "sleepingWristTemp": {
+        "label": "Sleeping wrist temperature",
+        "unit": "degC",
+        "kind": "avg",
+        "avg": 36.311,
+        "latest": 36.413,
+        "latestDate": "2025-12-26",
+        "count": 109
+      },
+      "heartRateRecovery": {
+        "label": "1-min heart rate recovery",
+        "unit": "bpm",
+        "kind": "avg",
+        "avg": 40.258,
+        "latest": 37.952,
+        "latestDate": "2025-06-28",
+        "count": 31
+      },
+      "timeInDaylight": {
+        "label": "Time in daylight",
+        "unit": "min",
+        "kind": "sum",
+        "total": 6916.0,
+        "dailyAvg": 49.4,
+        "latest": 1.0,
+        "latestDate": "2025-12-28",
+        "activeDays": 140,
+        "count": 1513
+      },
+      "hrv": {
+        "label": "Heart rate variability",
+        "unit": "ms",
+        "kind": "avg",
+        "avg": 47.407,
+        "latest": 50.38,
+        "latestDate": "2025-12-31",
+        "count": 1208
+      }
+    },
+    "sleep": {
+      "totalHours": 2204.2,
+      "nights": 295,
+      "avgHours": 7.47,
+      "stages": {
+        "Core": 1383.36,
+        "Deep": 282.46,
+        "REM": 415.05,
+        "Unspecified": 123.32,
+        "Awake": 125.49,
+        "InBed": 813.09
+      }
+    },
+    "workouts": {
+      "count": 225,
+      "durationMin": 13654.3,
+      "distanceKm": 0.0,
+      "energyCal": 0.0,
+      "types": {
+        "Running": {
+          "count": 75,
+          "durationMin": 4806.9,
+          "distanceKm": 0.0,
+          "energyCal": 0.0
+        },
+        "Hiking": {
+          "count": 15,
+          "durationMin": 4646.4,
+          "distanceKm": 0.0,
+          "energyCal": 0.0
+        },
+        "Swimming": {
+          "count": 71,
+          "durationMin": 2325.8,
+          "distanceKm": 0.0,
+          "energyCal": 0.0
+        },
+        "Walking": {
+          "count": 40,
+          "durationMin": 1108.5,
+          "distanceKm": 0.0,
+          "energyCal": 0.0
+        },
+        "Cycling": {
+          "count": 15,
+          "durationMin": 422.2,
+          "distanceKm": 0.0,
+          "energyCal": 0.0
+        },
+        "Climbing": {
+          "count": 2,
+          "durationMin": 149.9,
+          "distanceKm": 0.0,
+          "energyCal": 0.0
+        },
+        "Volleyball": {
+          "count": 4,
+          "durationMin": 136.1,
+          "distanceKm": 0.0,
+          "energyCal": 0.0
+        },
+        "TraditionalStrengthTraining": {
+          "count": 1,
+          "durationMin": 50.5,
+          "distanceKm": 0.0,
+          "energyCal": 0.0
+        },
+        "Other": {
+          "count": 1,
+          "durationMin": 6.7,
+          "distanceKm": 0.0,
+          "energyCal": 0.0
+        },
+        "Yoga": {
+          "count": 1,
+          "durationMin": 1.3,
+          "distanceKm": 0.0,
+          "energyCal": 0.0
+        }
+      }
+    },
+    "clinicalCount": 0
+  },
+  "2026": {
+    "range": {
+      "first": "2026-01-01",
+      "last": "2026-07-27",
+      "days": 208
+    },
+    "metrics": {
+      "bodyMass": {
+        "label": "Body mass",
+        "unit": "kg",
+        "kind": "avg",
+        "avg": 57.5,
+        "latest": 57.5,
+        "latestDate": "2026-06-23",
+        "count": 1
+      },
+      "heartRate": {
+        "label": "Heart rate",
+        "unit": "bpm",
+        "kind": "avg",
+        "avg": 94.923,
+        "latest": 84.0,
+        "latestDate": "2026-07-27",
+        "count": 92778
+      },
+      "oxygenSaturation": {
+        "label": "Oxygen saturation",
+        "unit": "%",
+        "kind": "avg",
+        "avg": 93.436,
+        "latest": 92.0,
+        "latestDate": "2026-07-27",
+        "count": 3038
+      },
+      "respiratoryRate": {
+        "label": "Respiratory rate",
+        "unit": "breaths/min",
+        "kind": "avg",
+        "avg": 17.957,
+        "latest": 19.0,
+        "latestDate": "2026-07-27",
+        "count": 9343
+      },
+      "steps": {
+        "label": "Steps",
+        "unit": "steps",
+        "kind": "sum",
+        "total": 1323533.0,
+        "dailyAvg": 6363.139,
+        "latest": 2.0,
+        "latestDate": "2026-07-27",
+        "activeDays": 208,
+        "count": 14341
+      },
+      "walkingRunningDistance": {
+        "label": "Walking + running distance",
+        "unit": "km",
+        "kind": "sum",
+        "total": 918.804,
+        "dailyAvg": 4.417,
+        "latest": 0.032,
+        "latestDate": "2026-07-27",
+        "activeDays": 208,
+        "count": 20119
+      },
+      "basalEnergy": {
+        "label": "Basal energy",
+        "unit": "Cal",
+        "kind": "sum",
+        "total": 292730.472,
+        "dailyAvg": 1414.157,
+        "latest": 18.32,
+        "latestDate": "2026-07-27",
+        "activeDays": 207,
+        "count": 76403
+      },
+      "activeEnergy": {
+        "label": "Active energy",
+        "unit": "Cal",
+        "kind": "sum",
+        "total": 58636.682,
+        "dailyAvg": 284.644,
+        "latest": 5.699,
+        "latestDate": "2026-07-27",
+        "activeDays": 206,
+        "count": 77458
+      },
+      "flightsClimbed": {
+        "label": "Flights climbed",
+        "unit": "flights",
+        "kind": "sum",
+        "total": 903.0,
+        "dailyAvg": 10.146,
+        "latest": 2.0,
+        "latestDate": "2026-07-20",
+        "activeDays": 89,
+        "count": 534
+      },
+      "exerciseMinutes": {
+        "label": "Exercise minutes",
+        "unit": "min",
+        "kind": "sum",
+        "total": 3461.0,
+        "dailyAvg": 25.08,
+        "latest": 1.0,
+        "latestDate": "2026-07-27",
+        "activeDays": 138,
+        "count": 3461
+      },
+      "cyclingDistance": {
+        "label": "Cycling distance",
+        "unit": "km",
+        "kind": "sum",
+        "total": 1.761,
+        "dailyAvg": 1.761,
+        "latest": 1.761,
+        "latestDate": "2026-03-04",
+        "activeDays": 1,
+        "count": 1
+      },
+      "swimmingDistance": {
+        "label": "Swimming distance",
+        "unit": "km",
+        "kind": "sum",
+        "total": 27.535,
+        "dailyAvg": 1.101,
+        "latest": 0.05,
+        "latestDate": "2026-07-27",
+        "activeDays": 25,
+        "count": 921
+      },
+      "swimmingStrokes": {
+        "label": "Swimming strokes",
+        "unit": "strokes",
+        "kind": "sum",
+        "total": 17050.0,
+        "dailyAvg": 550.0,
+        "latest": 38.0,
+        "latestDate": "2026-07-27",
+        "activeDays": 31,
+        "count": 929
+      },
+      "restingHeartRate": {
+        "label": "Resting heart rate",
+        "unit": "bpm",
+        "kind": "avg",
+        "avg": 67.826,
+        "latest": 63.0,
+        "latestDate": "2026-07-27",
+        "count": 207
+      },
+      "vo2Max": {
+        "label": "VO2 max",
+        "unit": "mL/kg/min",
+        "kind": "avg",
+        "avg": 31.472,
+        "latest": 28.25,
+        "latestDate": "2026-07-15",
+        "count": 25
+      },
+      "walkingHeartRate": {
+        "label": "Walking heart rate",
+        "unit": "bpm",
+        "kind": "avg",
+        "avg": 100.468,
+        "latest": 113.0,
+        "latestDate": "2026-07-27",
+        "count": 172
+      },
+      "doubleSupport": {
+        "label": "Double support",
+        "unit": "%",
+        "kind": "avg",
+        "avg": 27.675,
+        "latest": 28.9,
+        "latestDate": "2026-07-27",
+        "count": 2162
+      },
+      "sixMinuteWalkDistance": {
+        "label": "6-minute walk distance",
+        "unit": "m",
+        "kind": "avg",
+        "avg": 422.0,
+        "latest": 429.0,
+        "latestDate": "2026-07-20",
+        "count": 18
+      },
+      "standMinutes": {
+        "label": "Stand minutes",
+        "unit": "min",
+        "kind": "sum",
+        "total": 13833.0,
+        "dailyAvg": 67.478,
+        "latest": 3.0,
+        "latestDate": "2026-07-27",
+        "activeDays": 205,
+        "count": 6429
+      },
+      "walkingSpeed": {
+        "label": "Walking speed",
+        "unit": "km/hr",
+        "kind": "avg",
+        "avg": 3.925,
+        "latest": 4.464,
+        "latestDate": "2026-07-27",
+        "count": 2767
+      },
+      "stepLength": {
+        "label": "Step length",
+        "unit": "cm",
+        "kind": "avg",
+        "avg": 62.696,
+        "latest": 70.0,
+        "latestDate": "2026-07-27",
+        "count": 2767
+      },
+      "walkingAsymmetry": {
+        "label": "Walking asymmetry",
+        "unit": "%",
+        "kind": "avg",
+        "avg": 12.824,
+        "latest": 0.0,
+        "latestDate": "2026-07-27",
+        "count": 1185
+      },
+      "walkingSteadiness": {
+        "label": "Walking steadiness",
+        "unit": "%",
+        "kind": "avg",
+        "avg": 81.591,
+        "latest": 72.737,
+        "latestDate": "2026-07-14",
+        "count": 18
+      },
+      "sleepingWristTemp": {
+        "label": "Sleeping wrist temperature",
+        "unit": "degC",
+        "kind": "avg",
+        "avg": 36.244,
+        "latest": 36.734,
+        "latestDate": "2026-07-26",
+        "count": 105
+      },
+      "heartRateRecovery": {
+        "label": "1-min heart rate recovery",
+        "unit": "bpm",
+        "kind": "avg",
+        "avg": 30.717,
+        "latest": 32.865,
+        "latestDate": "2026-03-20",
+        "count": 3
+      },
+      "timeInDaylight": {
+        "label": "Time in daylight",
+        "unit": "min",
+        "kind": "sum",
+        "total": 2585.0,
+        "dailyAvg": 37.464,
+        "latest": 4.0,
+        "latestDate": "2026-07-27",
+        "activeDays": 69,
+        "count": 619
+      },
+      "hrv": {
+        "label": "Heart rate variability",
+        "unit": "ms",
+        "kind": "avg",
+        "avg": 40.033,
+        "latest": 21.327,
+        "latestDate": "2026-07-27",
+        "count": 1115
+      }
+    },
+    "sleep": {
+      "totalHours": 1339.14,
+      "nights": 192,
+      "avgHours": 6.97,
+      "stages": {
+        "Core": 749.39,
+        "Deep": 175.39,
+        "REM": 297.45,
+        "Unspecified": 116.91,
+        "Awake": 153.69,
+        "InBed": 0.0
+      }
+    },
+    "workouts": {
+      "count": 74,
+      "durationMin": 2487.8,
+      "distanceKm": 0.0,
+      "energyCal": 0.0,
+      "types": {
+        "Swimming": {
+          "count": 31,
+          "durationMin": 1318.8,
+          "distanceKm": 0.0,
+          "energyCal": 0.0
+        },
+        "FunctionalStrengthTraining": {
+          "count": 10,
+          "durationMin": 385.2,
+          "distanceKm": 0.0,
+          "energyCal": 0.0
+        },
+        "Walking": {
+          "count": 12,
+          "durationMin": 266.0,
+          "distanceKm": 0.0,
+          "energyCal": 0.0
+        },
+        "Running": {
+          "count": 4,
+          "durationMin": 199.7,
+          "distanceKm": 0.0,
+          "energyCal": 0.0
+        },
+        "Cycling": {
+          "count": 11,
+          "durationMin": 148.5,
+          "distanceKm": 0.0,
+          "energyCal": 0.0
+        },
+        "Yoga": {
+          "count": 4,
+          "durationMin": 138.9,
+          "distanceKm": 0.0,
+          "energyCal": 0.0
+        },
+        "TraditionalStrengthTraining": {
+          "count": 2,
+          "durationMin": 30.7,
+          "distanceKm": 0.0,
+          "energyCal": 0.0
+        }
+      }
+    },
+    "clinicalCount": 0
+  }
+}
